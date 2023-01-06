@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "t23-ui": "file:./t23-ui-0.0.1.tgz",
+    "@haelbichalex/t23-ui": "0.0.1",
     "vite": "^4.0.4",
     "vitepress": "1.0.0-alpha.35",
     "vue": "^3.2.45"

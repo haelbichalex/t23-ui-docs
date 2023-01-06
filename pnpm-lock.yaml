@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  t23-ui: file:./t23-ui-0.0.1.tgz
+  '@haelbichalex/t23-ui': 0.0.1
   vite: ^4.0.4
   vitepress: 1.0.0-alpha.35
   vue: ^3.2.45
 
 devDependencies:
-  t23-ui: file:t23-ui-0.0.1.tgz_vue@3.2.45
+  '@haelbichalex/t23-ui': 0.0.1_vue@3.2.45
   vite: 4.0.4
   vitepress: 1.0.0-alpha.35
   vue: 3.2.45
@@ -389,6 +389,14 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@haelbichalex/t23-ui/0.0.1_vue@3.2.45:
+    resolution: {integrity: sha512-LTAo0nSclPABHszb53ZxA1QtZQpOyzhukT3TtuZRje9VB9PvEpYwhZT27NV1N+XzYd4MOObn0puLkVC6VGr+5w==, tarball: download/@haelbichalex/t23-ui/0.0.1/8c9217c008202d7d8ccc81de7f810849889791d9}
+    peerDependencies:
+      vue: ^3.2.37
+    dependencies:
+      vue: 3.2.45
+    dev: true
 
   /@types/web-bluetooth/0.0.16:
     resolution: {integrity: sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==}
@@ -781,15 +789,4 @@ packages:
       '@vue/runtime-dom': 3.2.45
       '@vue/server-renderer': 3.2.45_vue@3.2.45
       '@vue/shared': 3.2.45
-    dev: true
-
-  file:t23-ui-0.0.1.tgz_vue@3.2.45:
-    resolution: {integrity: sha512-0At/fdxsohkbnggp8vB4ORzJc+5wiP9RQZbFqoT0S+21YCnJU7r2O3PrMJkzc7Ys/gvtem672BfCSbzxfNHX9w==, tarball: file:t23-ui-0.0.1.tgz}
-    id: file:t23-ui-0.0.1.tgz
-    name: t23-ui
-    version: 0.0.1
-    peerDependencies:
-      vue: ^3.2.37
-    dependencies:
-      vue: 3.2.45
     dev: true

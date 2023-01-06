@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { T23Button } from 't23-ui'
+import { T23Button } from '@haelbichalex/t23-ui'
 </script>
 
 # Button
@@ -36,5 +36,5 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 ## Source
 
-<<< @/../node_modules/t23-ui/src/components/Button/T23Button.vue
+<<< @/../node_modules/@haelbichalex/t23-ui/src/components/Button/T23Button.vue
 

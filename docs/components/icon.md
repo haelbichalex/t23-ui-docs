@@ -3,9 +3,9 @@ title: Icon
 ---
 
 <script setup>
-import { T23Grid } from 't23-ui';
-import { T23Icon, registerIcons } from 't23-ui';
-import { completeIconSet } from 't23-ui/icons';
+import { T23Grid } from '@haelbichalex/t23-ui';
+import { T23Icon, registerIcons } from '@haelbichalex/t23-ui';
+import { completeIconSet } from '@haelbichalex/t23-ui/icons';
 registerIcons(...completeIconSet);
 </script>
 
@@ -17,8 +17,8 @@ TODO
 
 ```vue
 <script setup>
-import { T23Icon } from 't23-ui';
-import { t23IconBubble16 } from 't23-ui/src/icons/output';
+import { T23Icon } from '@haelbichalex/t23-ui';
+import { t23IconBubble16 } from '@haelbichalex/t23-ui/src/icons/output';
 </script>
 
 <template>
@@ -50,5 +50,5 @@ import { t23IconBubble16 } from 't23-ui/src/icons/output';
 
 ## Source
 
-<<< @/../node_modules/t23-ui/src/components/Icon/T23Icon.ts
+<<< @/../node_modules/@haelbichalex/t23-ui/src/components/Icon/T23Icon.ts
 
