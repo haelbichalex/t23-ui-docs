@@ -1,6 +1,7 @@
 export default {
     title: 'T23 UI',
     description: 'Just playing around.',
+    base: '/t23-ui-docs/',
     themeConfig: {
         nav: [
             { text: 'Docs Home', link: '/' },
