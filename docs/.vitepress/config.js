@@ -4,15 +4,21 @@ export default {
     base: '/t23-ui-docs/',
     themeConfig: {
         nav: [
-            { text: 'Docs Home', link: '/' },
+            { text: 'Docs', link: '/' },
             { text: 'GitHub', link: 'https://github.com/haelbichalex/t23-ui' }
         ],
         sidebar: [
             {
-                text: 'Introduction',
+                text: 'Getting started',
                 items: [
                     { text: 'Introduction', link: '/' },
-                    { text: 'Getting Started', link: '/getting-started' },
+                    { text: 'Installation', link: '/installation' },
+                ]
+            },
+            {
+                text: 'CSS',
+                items: [
+                    { text: 'Color', link: '/css/color' },
                 ]
             },
             {
@@ -21,7 +27,7 @@ export default {
                     { text: 'Button', link: '/components/button' },
                     { text: 'Icon', link: '/components/icon' }
                 ]
-            }
+            },
         ]
     }
 }

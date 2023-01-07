@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@haelbichalex/t23-ui': 0.0.1
+  '@haelbichalex/t23-ui': 0.0.2
   vite: ^4.0.4
   vitepress: 1.0.0-alpha.35
   vue: ^3.2.45
 
 devDependencies:
-  '@haelbichalex/t23-ui': 0.0.1_vue@3.2.45
+  '@haelbichalex/t23-ui': 0.0.2_vue@3.2.45
   vite: 4.0.4
   vitepress: 1.0.0-alpha.35
   vue: 3.2.45
@@ -390,8 +390,8 @@ packages:
     dev: true
     optional: true
 
-  /@haelbichalex/t23-ui/0.0.1_vue@3.2.45:
-    resolution: {integrity: sha512-LTAo0nSclPABHszb53ZxA1QtZQpOyzhukT3TtuZRje9VB9PvEpYwhZT27NV1N+XzYd4MOObn0puLkVC6VGr+5w==, tarball: download/@haelbichalex/t23-ui/0.0.1/8c9217c008202d7d8ccc81de7f810849889791d9}
+  /@haelbichalex/t23-ui/0.0.2_vue@3.2.45:
+    resolution: {integrity: sha512-W2YgqBP6buOqhYq8twFhzEWNEMcRKtwHlbPniHNmhDb/Vz7aOVrYLNSZCUFuTAwBKr6bAQ2JBx6+Um6DLqDQPg==, tarball: download/@haelbichalex/t23-ui/0.0.2/4a155586eb7016696d6b0eec69efec747f48ff08}
     peerDependencies:
       vue: ^3.2.37
     dependencies:
